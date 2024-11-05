@@ -8,7 +8,11 @@ body {
 
 header {
     text-align: center;
-    padding: 20px 0;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
 }
 
 nav ul {
@@ -27,10 +31,11 @@ nav ul li a {
     text-decoration: none;
     color: #333333;
     font-size: 16px;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #12f78c;
+    color: #7ABA96;
 }
 
 /* Estilos principales */
@@ -41,12 +46,11 @@ main {
 }
 
 .suscripcion {
-    width: 50%;
-
+    width: 60%;
     text-align: center;
     background-color: #f0f0f0; /* Color gris claro */
     padding: 10px;
-    margin: 0 auto;
+    margin: auto;
     color: #6b6b6b;
 }
 
@@ -69,8 +73,9 @@ main {
 
 .sobre-mi {
     text-align: center;
-    width: 20%;
-    margin-right: 200px;
+    width: 25%;
+    margin-right: 100px;
+    margin-top: 175px;
     color: #6b6b6b;
 }
 .sobre-mi h2 {
@@ -81,11 +86,12 @@ main {
 }
 
 .recetas {
-    width: 50%;
+    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    margin-right: 200px;
+    margin-right: 60px;
+    margin-top: 175px;
 }
 
 .recetas article {
@@ -102,6 +108,14 @@ main {
     margin: 10px 0;
     text-align: center;
 }
+.recetas a{
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.recetas a:hover {
+    color: #7ABA96;
+}
 
 .fecha {
     text-align: center;
@@ -113,6 +127,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+
 }
 
 footer ul {
