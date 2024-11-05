@@ -74,6 +74,7 @@ main {
 .sobre-mi {
     text-align: center;
     width: 25%;
+    margin-left: 50px;
     margin-right: 100px;
     margin-top: 175px;
     color: #6b6b6b;
