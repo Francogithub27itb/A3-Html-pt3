@@ -81,6 +81,7 @@ summary {
     cursor: pointer;
     list-style: none;
     outline: none;
+    font-size: larger;
 }
 
 details[open] {
@@ -102,9 +103,9 @@ button {
     width: 100%;
 }
 
-.llistareceptes .caracteristicas li{
-    list-style-type: disc;
-    display: inline;
+.llistareceptes ul li details div .caracteristicas {
+    margin-top: 10px;
+    font-weight: bolder;
     padding: 10px;
 }
 
