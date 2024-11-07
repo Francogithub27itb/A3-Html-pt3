@@ -16,7 +16,6 @@ header {
     color: #333
 }
 
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -31,12 +30,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #333333;
     font-size: 16px;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #12f78c;
+    color: #7ABA96;
 }
 
 /* Estilo del main */
@@ -79,5 +79,4 @@ footer ul li a {
 
 footer ul li a:hover {
     text-decoration: underline;
-}
 }
