@@ -67,6 +67,12 @@ main {
     width: 100%;
     font-size: 16px;
 }
+
+.suscripcion button a {
+    color: white;
+    text-decoration: none;
+}
+
 .suscripcion h3 {
     color: #000000;
 }
