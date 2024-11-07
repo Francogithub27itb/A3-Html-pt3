@@ -45,6 +45,11 @@ main {
     width: 100%;
 }
 
+.llistareceptes ul li details div button a {
+    text-decoration: none;
+    color: white;
+}
+
 .llistareceptes {
     align-content: center;
     flex-wrap: wrap;
@@ -95,6 +100,12 @@ button {
 
 .llistareceptes img {
     width: 100%;
+}
+
+.llistareceptes .caracteristicas li{
+    list-style-type: disc;
+    display: inline;
+    padding: 10px;
 }
 
 footer {
